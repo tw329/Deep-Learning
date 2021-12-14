@@ -1,0 +1,11 @@
+Q1:
+No, although the error is very small but still not zero. For example, when using XOR dataset with three hidden nodes, we can reach the train error to e^(-25).
+
+Q2:
+Yes, instead using all the data point to compute the delta, we only use one data point.
+
+Q3:
+No, test error of SGD is not lower than full gradient descent. For example, when using XOR dataset, the test error of SGD is e^(-22), while the test error of full gradient descent is e^(-25).
+
+Q4:
+No, when we change the activation function to sign, the algorithm won't work. Sign function is discontinuous so won't work with gradient descent. We have to define the value of derivative at 0.

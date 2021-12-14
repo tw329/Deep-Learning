@@ -1,0 +1,8 @@
+Since there are two kind of news, fake and real, I train two Word2Vec model, one for fake and one for real.
+I create a director, model, which include model for fake news and model for real news in order to fit the input format required on the course website
+
+
+Q:
+Are the most similar words to the queries considerably different from the fake and real news datasets?
+A:
+Yes, very different.
